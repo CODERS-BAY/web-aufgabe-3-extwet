@@ -1,0 +1,102 @@
+body {
+    background-image: url('..img/ranke.png');
+    margin: 0;
+    padding: 0;
+    font-family: "Palatino Linotype", Arial, sans-serif;
+    background-color: honeydew;
+    }
+
+nav {
+       
+        width: 100%;
+        /* position: fixed; */
+        background-color: gray;
+        font-size: 140%;
+    }
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    }
+
+nav a {
+        color: coral;
+        padding: 15px;
+        text-decoration: none;
+        margin: 25px;
+    }
+
+
+h1 {
+    border-bottom: 1px solid rgb(156, 83, 83);
+    font-size:3rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: left;
+    margin-left: 20;
+    font-weight: bold;
+}
+
+em {
+    color: yellowgreen;
+    background-color: grey;
+}
+
+/*main {
+    max-width: 62rem;
+    margin:auto;
+    display: flex;
+}*/
+
+.abstand {
+    margin-top: 80px;
+}
+.svgPosition {
+    margin-left: 80px;
+}
+
+.imgPosition {
+    width:50%;
+    display: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.textRight{
+    text-align: right;
+    font-size: xx-large;
+    color: blanchedalmond;
+    font-weight: bold;
+}
+
+
+.row {
+display:flex;
+padding-inline: 80px;
+}
+
+footer {
+    background-color: #263238;
+    color: #ffffff;
+    padding: 2rem;
+    margin-top: 1rem;
+  }
+  
+
+@media screen and (max-width:720px) {
+    min {
+        display:block;
+    }
+    article {
+        display:block;
+        width: 100%;
+    }
+}
